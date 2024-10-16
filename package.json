@@ -1,7 +1,7 @@
 {
   "name": "intasend-node",
   "description": "IntaSend official NodeJS SDK",
-  "version": "1.0.8",
+  "version": "1.1.2",
   "main": "./dist/intasend.js",
   "types": "./dist/intasend.d.ts",
   "files": [
@@ -11,7 +11,10 @@
     "build": "tsc"
   },
   "license": "GNU Affero General Public License v3.0",
-  "repository": "https://github.com/IntaSend/intasend-node.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IntaSend/intasend-node.git"
+  },
   "devDependencies": {
     "@types/node": "^18.7.18",
     "typescript": "^5.4.5"

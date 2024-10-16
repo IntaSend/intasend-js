@@ -86,16 +86,16 @@ payouts
   .then((resp) => {
     console.log(`Payouts response: ${JSON.stringify(resp)}`);
     // Approve payouts
-    if (req_approval === 'YES'){
-      payouts
-        .approve(resp)
-        .then((resp) => {
-          console.log(`Payouts approve: ${JSON.stringify(resp)}`);
-        })
-        .catch((err) => {
-          console.error(`Payouts approve error: ${err}`);
-        });
-    }
+    // if (req_approval === 'YES'){
+    //   payouts
+    //     .approve(resp)
+    //     .then((resp) => {
+    //       console.log(`Payouts approve: ${JSON.stringify(resp)}`);
+    //     })
+    //     .catch((err) => {
+    //       console.error(`Payouts approve error: ${err}`);
+    //     });
+    // }
   })
   .catch((err) => {
     console.error(`Payouts error: ${err}`);
